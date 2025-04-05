@@ -1,0 +1,25 @@
+#login{
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    position: fixed;
+    top: 0vh;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 32px, rgba(107, 190, 201, 0.7) 32px, rgba(107, 190, 201, 0.7) 64px);
+background-color: rgba(20, 156, 197, 0.76);
+}
+#btn input{
+    box-shadow: none;
+}
+#form-con{
+    z-index: 100;
+}
+#FormBox{
+    background-color: white;
+    padding: calc(3vh + 2vw);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(4, 214, 214, 0.808);
+    border: 18px aqua;
+}
+.form-con input{
+    width: 94.5%;
+}

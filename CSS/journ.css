@@ -1,0 +1,219 @@
+
+@font-face{
+    font-family: Mochy;
+    src: url(../fonts/Mochy.ttf);
+}
+
+#main{
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 75% auto;
+}
+#fhalf , #shalfs{
+    display: grid;
+    grid-template-rows: 60% auto;
+}
+#ffhalf{
+    display: grid;
+    grid-template-columns: 25vw auto;
+}
+#transcar{
+    height: calc(3vh + 2vw) ;
+    width: calc(3vh + 2vw);
+    float: left;
+    padding-right: 3%;
+}
+#drname h2{
+    font-family: mochy;
+    font-size: calc(0.7vh + 0.7vw) ;
+    padding: 3%;
+    margin: 0%;
+}
+#drname{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+#jrd{
+    display: grid;
+    grid-template-rows: 35% 65%;
+
+}
+.Voyage{
+    display: grid;
+    grid-template-rows: 65% auto ;
+    border: 5px solid rgb(99, 99, 99);
+    border-radius: 15px;
+}
+.voyagdet{
+    display: grid;
+    grid-template-columns: 65% auto ;
+}
+.Datedepa{
+    display: grid;
+    grid-template-columns:25% 2% auto  ;
+}
+.depfin{
+    display: grid;
+    grid-template-rows: 25% auto 25% ;
+    font-size: calc(1vh + 0.8vw);
+}
+.depfinpic{
+    height: 20%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+#first{
+    display: flex;  
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+#last{
+    display: flex;  
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#second{
+    display: grid;
+    grid-template-columns: 35% auto 35% ;
+}
+#black{
+    background-color: black;
+}
+.depfinb{
+    display: grid;
+    grid-template-rows: 20% auto 12% ;
+}
+.depfin1{
+    display: flex;  
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10%;
+    color: rgb(4, 88, 123);
+    font-weight: 700;
+}
+.depfin2{
+    display: flex;  
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 3%;
+    font-weight: 800;
+}
+.iconprix{
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+.imgopt{
+    height: calc(1.5vh + 1.5vw) ;
+    width: calc(1.5vh + 1.5vw) ;
+    margin: 0% 4%;
+}
+.iconsopt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DateJou{
+    display: flex;
+    justify-content: flex-end;
+    font-size: calc(1.5vh + 1.5vw) ;
+    padding-right: 5%;
+    padding-top: 4%;
+    font-weight: 700;
+}
+.prix{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    font-size: calc(1.3vh + 1.3vw);
+    font-weight: 700;
+}
+.journeytxt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(2.4vh + 2.4vw) ;
+    font-weight: 800;
+
+}   
+#sfhalf{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#sfhalf > :first-child{
+    display:flex ;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 4%;
+    font-family: mochy;
+    font-size: calc(0.8vh + 0.8vw) ;
+    font-weight: 800;
+    color: #6ba3b4;
+}
+#sfhalf > :last-child{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+#sfhalf > :last-child > :first-child{
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+}
+#sfhalf > :last-child > :first-child > :first-child {
+    padding-top: 3%;
+}
+#sfhalf > :last-child > :first-child > :last-child{
+    padding-bottom: 3%;
+}
+tr > :first-child{
+   padding-right: 0.9vw;
+   text-align: right;
+}
+tr > :last-child{
+    text-align: left;
+}
+.button{
+    height: 100%;
+    width: 100%;
+    background-color: #4cbee4;
+    color: white;
+    font-family: mochy;
+    font-size: calc(0.7vh + 0.7vw) ;
+    border-radius: 40px;
+    border: none;
+    transition: 0.4s;
+}
+.button:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+#tri{
+    display: grid;
+    grid-template-columns: 49.5% 1% 49.5%;
+}
+#graaay{
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+}
+#bgray{
+    background-color: #b0adad;
+}
+#shalfs > :first-child{
+    padding-left: 10%;
+    padding-bottom: 7%;
+    display: flex;
+    align-items: flex-end;
+    font-family: mochy;
+    font-size: calc(0.8vh + 0.8vw) ;
+    font-weight: 700;
+}
+#shalfs > :last-child{
+    padding-left: 10%;
+    padding-top: 10%;
+    font-family: mochy;
+    font-size: calc(0.7vh + 0.7vw) ;
+    color: #6fa4b6;
+}

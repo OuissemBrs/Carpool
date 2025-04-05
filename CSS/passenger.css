@@ -1,0 +1,115 @@
+@font-face{
+    font-family: Mochy;
+    src: url(../fonts/Mochy.ttf);
+}
+
+
+#profile{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#profil , #journey{
+    display: grid;
+    grid-template-rows: 40% 60%;
+}
+
+#profil > :first-child , #journey > :first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: mochy;
+    font-size: calc(1.7vh + 1.7vw);
+}
+#main1{
+    padding-left: 10%;
+    padding-top: 3%;
+}
+.main11{
+    display: grid;
+    grid-template-columns:  20% 60%;
+    margin-bottom: 20px;
+}
+.main11 > :first-child{
+    padding: 2%;
+    display: flex;
+    color: #67a1b2;
+    align-items: center;
+    font-family: Mochy;
+    justify-content: flex-end;
+    font-size: calc(1.2vh + 1.2vw);
+}
+.main11 > :last-child{
+    padding: 1%;
+
+}
+.main11 > :last-child input{
+    height: 105%;
+    width: 90%;
+    border: 7px solid #4fbfe4;
+    border-radius: 45px;
+    background-color: #f4f4f4;
+    font-size: calc(0.8vh + 0.8vw);
+    padding-left: 10%;
+    font-family: Mochy;
+    color: #838383;
+
+}
+#table{
+    padding: 0% 8%;
+    margin: 2% 0%;
+    overflow-x: auto;
+}
+#table::-webkit-scrollbar{
+    width: 0;
+}
+table{
+    width: 100%;
+}
+th:nth-child(1),
+td:nth-child(1) {
+    width: 15%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 15%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 50%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 20%;
+}
+td , th{
+    height: 5vh;
+    text-align: left;
+    font-size: calc(0.8vh + 0.8vw);
+    font-family: mochy;
+    padding-left: 15px;
+}
+th {
+    color: white;
+    background-color: #81b1bf;
+        position: sticky;
+        top: 0; 
+        z-index: 1; 
+}
+td{
+    background-color: #e6eff2;
+    color: #1a1b1b;
+    
+}
+#pending{
+    color: #062160;
+}
+#accepted{
+    color: #4eb156;
+}
+#refused{
+    color: red;
+}

@@ -1,0 +1,235 @@
+
+@font-face{
+    font-family: Mochy;
+    src: url(../fonts/Mochy.ttf);
+}
+
+#result{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 60% auto;
+    padding-top: 10vh;
+}
+#main{
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 75% auto;
+}
+#fhalf{
+    display: grid;
+    grid-template-rows: 60% auto;
+}
+#ffhalf{
+    display: grid;
+    grid-template-columns: 25vw auto;
+}
+#transcar{
+    height: calc(1.5vh + 1.7vw) ;
+    width: calc(1.5vh + 1.7vw) ;
+    float: left;
+    padding-right: 3%;
+}
+#drname h2{
+    
+    padding: 3%;
+    font-size: calc(0.5vh + 0.5vw);
+    margin: 0%;
+}
+#drname{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: 1vw;
+    padding-bottom: 1vh;
+}
+#jrd{
+    display: grid;
+    grid-template-rows: 35% 65%;
+
+}
+#voyup{
+    padding-top: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+#voyup::-webkit-scrollbar{
+    width: 0;
+}
+.Voyage{
+    width: 80%;
+    margin: 0 10%;
+    display: grid;
+    grid-template-rows: 60% auto ;
+    border: 5px solid rgb(99, 99, 99);
+    border-radius: 15px;
+    height: 20vh;
+    margin-bottom: 1vh;
+    transition: 0.4S;
+}
+.voyagdet{
+    display: grid;
+    grid-template-columns: 70% ;
+}
+.Voyage:hover{
+    cursor: pointer;
+    scale: 1.07;
+}
+.Datedepa{
+    display: grid;
+    grid-template-columns:25% 2% auto  ;
+}
+.depfin{
+    display: grid;
+    grid-template-rows: 25% auto 25% ;
+    font-size: calc(1vh + 0.8vw);
+}
+.depfinpic{
+    height: 20%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+#first{
+    display: flex;  
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+#last{
+    display: flex;  
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#second{
+    display: grid;
+    grid-template-columns: 35% auto 35% ;
+}
+#black{
+    background-color: black;
+}
+.depfinb{
+    display: grid;
+    grid-template-rows: 20% auto 12% ;
+}
+.depfin1{
+    display: flex;  
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10%;
+    color: rgb(4, 88, 123);
+    font-weight: 700;
+}
+.depfin2{
+    display: flex;  
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 3%;
+    font-weight: 800;
+}
+
+.iconprix{
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+.imgopt{
+    height: calc(1.5vh + 1.5vw) ;
+    width: calc(1.5vh + 1.5vw) ;
+    margin: 0% 4%;
+}
+.iconsopt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DateJou{
+    display: flex;
+    justify-content: flex-end;
+    font-size: calc(1.5vh + 1.5vw) ;
+    font-size: 300%;
+    padding-right: 5%;
+    padding-top: 4%;
+    font-weight: 700;
+}
+.prix{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5%;
+    font-size: calc(1vh + 1vw);
+    font-weight: 700;
+}
+.journeytxt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(2.4vh + 2.4vw) ;
+    font-weight: 800;
+
+}   
+.depfin div:nth-of-type(2){
+    font-size: calc(0.7vh + 0.7vw);
+}
+#searchsetting{
+    display: grid;
+    grid-template-rows: 49.5% 1% 49.5%;
+}
+.SortBy{
+    display: grid;
+    grid-template-rows: 30% 70%;
+
+}
+.SortBy > :first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1.7vh + 1.7vw) ;
+    font-family: mochy;
+}
+.sort{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1vh + 1vw);
+    font-family: mochy;
+    font-weight: 500;
+}
+.fsort{
+    display: grid;
+    grid-template-rows: 5vh 5vh 5vh;
+}
+.ssort{
+    display: grid;
+    grid-template-rows: 5vh 5vh 5vh;
+    margin-left: 3vw;
+}
+
+.fsort div , .ssort div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ssort div input{
+height: 100%;
+width: 1.7vw;
+}
+input[type=radio]{
+    accent-color: #000000;
+}
+input[type=checkbox]{
+    accent-color: #000000;
+}
+
+#row{
+    background-color: gray;
+    margin: 0 30%;
+}
+.fsright{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

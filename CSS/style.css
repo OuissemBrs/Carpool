@@ -1,0 +1,139 @@
+body{
+    margin: 0%;
+}
+@font-face{
+    font-family: Mochy;
+    src: url(../fonts/Mochy.ttf);
+}
+#fhalf{
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+#username{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: calc(1vh + 1vw);
+    font-weight: 700;
+    padding-right: 2%;
+    width: 100%;
+}
+#search-bar{
+    position: absolute;
+    top: 37vh;
+    left: 12.5vw;
+    display: grid;
+    grid-template-columns: 60vw 15vw;
+    grid-template-rows: 8vh;
+    justify-content: center;
+    z-index: 2;
+}
+#serachcon{
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw;
+    grid-template-rows: 8vh;
+    border: 0.1vh solid white;
+    border-radius: 40px;
+    z-index: 2;
+    box-shadow: 5px 5px 5px 5px rgba(30, 28, 34,0.7);
+}
+
+#clie{
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.searchbt{
+    height: 7.6vh;
+    width: 14.7vw;
+    border: none;
+    border-left: solid;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-size: calc(1.4vh + 1.2vw);
+    z-index: 2;
+}
+.searchbt::placeholder{
+    color: #9a9a9a;
+    font-weight: 700;
+    text-align: center;
+    font-size: calc(1.3vh + 1.2vw);
+}
+#submit{
+    height: 7.89vh;
+    width: 14.7vw;
+    position: relative; 
+    right: 14%;
+    z-index: 0;
+    background-color: #b75056;
+    border: none;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-size: calc(1.5vh + 1.3vw);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: 0.4s;
+}
+#submit:hover{
+    cursor: pointer;
+    scale: 1.03;
+}
+#depart{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border:none;
+    padding: 0%;
+    width: 15vw;
+}
+#fhtext{
+    margin: 0;
+    font-size: calc(1vh + 0.8vw);
+    line-height: calc(1vh + 2vw);
+    font-family: Mochy;
+}
+#familyre{
+    padding: calc(4vh + 2vw) ;
+}
+
+#familycar{
+    padding: calc(1.9vh + 1.2vw) ;
+    height:calc(8vh + 8.7vw);
+    width: calc(8vh + 8.7vw);
+    float: left;
+} 
+#reviews{
+    display: grid;
+    grid-template-columns: 55vw auto;
+    grid-template-rows: 60vh;
+}
+
+#goe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#goe h1{
+    font-family: Mochy;
+    font-size: calc(2vh + 1.8vw);
+    margin: 0%;
+}
+#shalf{
+    display: grid;
+    grid-template-rows: 10% 30% 30% 30%;
+}
+.shalf img{
+    height: calc(8.2vh + 4.2vw);
+    margin-right: 10px;
+}
+#shpic1 ,#shpic3{
+    float: left; 
+}
+#shpic2{
+    float: right; 
+}
+.shalf p {
+    font-family: Mochy;
+    font-size: calc(1vh + 0.8vw);
+}

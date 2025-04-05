@@ -1,0 +1,117 @@
+@font-face{
+    font-family: Mochy;
+    src: url(../fonts/Mochy.ttf);
+}
+
+
+
+#main{
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 17vh 10vh 36vh 12vh;
+}
+#date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1vh + 0.8vw);
+    font-family: mochy;
+    font-weight: 100;
+}
+#xjourneyx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1.2vh + 1.2vw);
+    font-family: mochy;
+}
+
+
+#persmange{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    margin-top: 3vh;
+    padding-right: 2vw;
+    height: 70%;
+    padding: 0% 5%;
+}
+#persmange::-webkit-scrollbar{
+    width: 0;
+}
+#personne{
+    width: 70%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: 20% 15% 15% 25% 25%;
+}
+.perso{
+    background-color: #e6eff2;
+    margin: 4px;
+    color: #595a5a;
+    font-family: Mochy;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(0.8vh + 0.8vw);
+}
+.perso:first-child{
+    font-size: clamp(calc(0.8vh + 0.8vw), calc(0.6vh + 0.6vw));
+}
+
+.btn{
+    height: 80%;
+    width: 40%;
+    border-radius: 40px;
+    margin-left:10px;
+    border: none;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 5%;
+
+}
+.buttons button{
+    box-shadow: 4px 4px 4px 4px gray;
+}
+.buttons > :last-child{
+    background-color: #c3555c;
+    color: white;
+    font-family: Mochy;
+    font-size: calc(0.7vh + 0.7vw);
+}
+.buttons > :first-child{
+    background-color: #7eadbc;
+    color: white;
+    font-size: calc(0.7vh + 0.7vw);
+    font-family: Mochy;
+}
+#return{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#return button{
+    height: 52%;
+    width: 22%;
+    border: none;
+    border-radius: 50Px;
+    box-shadow: 4px 4px 4px 4px gray;
+    background-color: #4cbee4;
+    color: white;
+    font-size: calc(0.8vh + 0.8vw);
+    font-family: Mochy;
+}
+button{
+    transition: 0.7s;
+}
+button:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
