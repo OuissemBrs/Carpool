@@ -87,7 +87,7 @@ Carpool is a ride-sharing platform that allows travelers to find and share rides
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/carpool.git
+git clone https://github.com/OuissemBrs/carpool.git
 cd carpool
 ```
 
